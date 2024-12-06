@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400&family=Katibeh&family=Prompt:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-image: url("./Picture/owner_background.png");
+    background-color: #F5CFC0;
+
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.mycolum {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+
+.เมนูยอดนิยม {
+    overflow: auto;
+    width: 100%;
+}
+
+.เมนูยอดนิยม table {
+    border: 1px solid #dededf;
+    height: 100%;
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 1px;
+    text-align: left;
+}
+
+.เมนูยอดนิยม caption {
+    caption-side: top;
+    text-align: left;
+}
+
+.เมนูยอดนิยม th {
+    border: 1px solid #dededf;
+    background-color: #eceff1;
+    color: #000000;
+    padding: 5px;
+}
+
+.เมนูยอดนิยม td {
+    border: 1px solid #dededf;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 5px;
+}
+
+input.date1 {
+    border: solid 1px;
+    height: 50px;
+    width: 250px;
+    margin: 10px 0;
+    padding: 0 10px;
+    font-size: 1rem;
+    outline: none;
+    text-align: center;
+    border-radius: 5px;
+    transition: .5s;
+    cursor: pointer;
+    color: #000000;
+}
+
+input.search {
+    border: solid 1px;
+    height: 50px;
+    width: 250px;
+    margin: 10px 0;
+    padding: 0 10px;
+    font-size: 1rem;
+    outline: none;
+    text-align: center;
+    border-radius: 5px;
+    transition: .5s;
+    cursor: pointer;
+    color: #000000;
+}
+
+button {
+    background-color: #F5CFC0;
+    padding: 10px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: solid 1px;
+    cursor: pointer;
+    color: #000000;
+}
+
+.payment {
+    background-color: greenyellow;
+}
+
+.delete {
+    background-color: rgb(233, 105, 105);
+}
+
+.colum1 {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.table1 {
+    margin: auto;
+    width: 50%;
+}
+
+.bg {
+    background-color: white;
+    padding: 10px;
+}
+div.inputwithicon{
+    background-color: white;
+    padding: 10px;
+    border: none ;
+    font-size: 1rem;
+    outline: none;
+    text-align: center;
+    border-radius: 5px;
+    transition: 2s;
+    cursor: pointer;
+  }
+  div.inputwithicon:hover,
+  div.inputwithicon:focus{
+      background: white;
+      width: 350px;;
+      color: #1abc9c;
+  }
+  div.rightbutton{
+  display: grid;
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  }
+input {
+    border: none ;
+    height: 50px;
+    width: 250px;
+    margin: 10px 0;
+    padding: 0 10px;
+    font-size: 1rem;
+    outline: none;
+    text-align: center;
+    border-radius: 5px;
+    transition: .5s;
+    cursor: pointer;
+}
+  
